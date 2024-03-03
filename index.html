@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <h1>Projeto Lâmpada</h1>
+        <figure ondblclick="Quebrar()">
+            <img id="ilampadaOff" src="img/desligada.jpg" alt="lâmpada desligada">
+            <img id="ilampadaOn"  src="img/ligada.jpg" alt="lâmpada ligada">
+            <img id="ilampadaBr"  src="img/quebrada.jpg" alt="lâmpada quebrada">
+
+        </figure>
+        <div>
+            <button class="btn" onclick="ligar()" id="iligar">Ligar</button>
+            <button class="btn" onclick="desligar()" id="idesligar">Desligar</button>
+        </div>
+    </main>
+
+
+
+    <script src="ap.js"></script>
+</body>
+</html>
