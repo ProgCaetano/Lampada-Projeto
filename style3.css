@@ -25,9 +25,8 @@ main{
     transition: 1s  ;
 }
 
-#ilampadaOn, #ilampadaBr {
-    display: none;
+#idesligar{
+    display:none ;
 }
-
 
 

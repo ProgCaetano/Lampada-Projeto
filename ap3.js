@@ -13,12 +13,15 @@ function    isBroken (){
 function ligar(){
     if (!isBroken()){
     lampada.src  = 'img/ligada.jpg';
-    
+    turnOn.style.display = 'none';
+    turnOff.style.display = 'block';
     }
 }
 
 function desligar(){ if (!isBroken()){
     lampada.src = 'img/desligada.jpg';
+    turnOn.style.display = 'block';
+    turnOff.style.display = 'none';
     }
 }
 
