@@ -1,3 +1,6 @@
+// PRIMEIRA VERSÃO QUE FIZ SEM OLHAR, APÓS DEIXEI AS COISAS MAIS ORGANIZADAS.
+
+
 const lampadaOn = document.getElementById('ilampadaOn');
 const lampadaOff = document.getElementById('ilampadaOff');
 const lampadaBr = document.getElementById('ilampadaBr')

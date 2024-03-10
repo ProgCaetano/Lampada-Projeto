@@ -1,0 +1,33 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    padding-top: 60px;
+}
+
+.btn{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    
+}
+
+.btn:hover{
+    background-color: chartreuse;
+    transition: 1s  ;
+}
+
+#ilampadaOn, #ilampadaBr {
+    display: none;
+}
+
+
+
