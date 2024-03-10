@@ -9,7 +9,7 @@ function    isBroken (){
     return lampada.src.indexOf ('quebrada') > -1
 }
 
-
+//A função verifica se a lampada está quebrada, se não, troca a imagem ao clicar o botão de ligar para uma lampada ligada. 
 function ligar(){
     if (!isBroken()){
     lampada.src  = 'img/ligada.jpg';
